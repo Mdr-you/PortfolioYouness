@@ -1,89 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PortfolioYouness </title>
+    <title>Portfolio CV</title>
     <link rel="stylesheet" href="style.css">
-     <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
 </head>
 <body>
-    <div class="main">
-        <div class="navbar">
-            <img src="pic/logo.png"  class="logo">
-            <ul>
-                <li><a href="#home" >home</a></li>
-                <li><a href="#about" >about</a></li>
-                <li><a href="#skills" >skills</a></li>
-                <li><a href="#works" >my works</a></li>
-                <li><a href="#contact" >contact</a></li>
-            </ul>
-        </div> 
-        <section id="home" class="main-content"> 
 
-        
-        <div class="main-content">
-            <div class="info">
-            <h3>Hi, I'm Youness.</h3>
-            <h1>Network Technician</h1>
-            <h3>Fiber optic and network technician specializing in installation, <br>setup, and maintenance of reliable connections.
-        </div>
-            
-            <div class="main-pic">
-                <img src="pic/you.png.jpeg" alt="">
+    <!-- HEADER -->
+
+    <header>
+        <div class="container">
+
+            <div class="profile">
                 
-        </section>
-        <div class="spacer">
-<!-- ABOUT -->
-        <section id="about">
-            <h1>About Me</h1>
-        <div class="about-text">
-            
-                Je travaille depuis plus de 4 ans dans le domaine de l’installation de la fibre optique, où j’ai acquis une solide expérience en installation, maintenance, réparation et remplacement de matériel défectueux.
-                Je n’ai pas pu terminer mes études universitaires en raison de contraintes liées à la distance et à la difficulté de trouver un logement. Cependant, cela ne m’a pas empêché de continuer à avancer.
-                Actuellement, je poursuis des cours du soir en informatique de gestion, tout en travaillant en parallèle. Cette expérience me permet de développer mes compétences techniques et d’élargir mes connaissances dans le domaine de l’informatique.
-                Motivé et déterminé, je cherche à évoluer professionnellement en combinant mon expérience terrain et mes nouvelles compétences en informatique.
-        </div>
-            
-        </section>
 
-        <!-- SKILLS -->
-        <section id="skills">
-            <h1>My Skills</h1>
-            <ul>
-                <li>Network Installation</li>
-                <li>Fiber Optics</li>
-                <li>Routing & Switching</li>
-            </ul>
-        </section>
-
-        <!-- WORKS -->
-        <section id="works">
-            <h1>My Works</h1>
-
-            
-        <div class="about-text2">
-
-                Au cours de mon parcours, j’ai eu l’opportunité de travailler dans différents domaines, ce qui m’a permis de développer une grande capacité d’adaptation et un sens du travail polyvalent.
-               J’ai notamment acquis de l’expérience dans des secteurs techniques tels que la plomberie et la ventilation. Par ailleurs, durant mes études, j’ai occupé plusieurs emplois, notamment dans la distribution et le commerce, en travaillant avec La Poste, Aldi ainsi que dans différents magasins.
-               Ces expériences m’ont permis de développer des compétences telles que le travail en équipe, la rigueur, le sens du service et la gestion des responsabilités dans des environnements variés.
+                <div>
+                    <h1>Youness OLAHYANE</h1>
+                    <p>Network Technician</p>
+                </div>
             </div>
-        </section>
 
-        <!-- CONTACT -->
-        <section id="contact">
-            <h1>Contact Me</h1>
-            <p>Email: your@email.com</p>
-        </section>
-</div>
+            <nav>
+                <a href="#about">À propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#My Works">My Works</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-    
+        </div>
+    </header>
 
-        
-</div>
-        </body>
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <h2>Hi, I'm Youness 👋</h2>
+
+            <h3>Network Technician.</h3>
+
+            <p>
+                Fiber optic and network technician specializing in installation, </br>
+                setup, and maintenance of reliable connections.
+            </p>
+
+            
+        </div>
+         <img src="./profile.png.jpeg" alt="Photo de profil" class="logo">
+
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <h2>À propos</h2>
+
+        <p>
+            Je travaille depuis plus de 4 ans dans le domaine de l’installation de la fibre optique, où j’ai acquis une solide expérience en installation,
+            maintenance, réparation et remplacement de matériel défectueux. Je n’ai pas pu terminer mes études universitaires en raison de contraintes liées à la distance et à la difficulté de trouver un logement. 
+             Cependant, cela ne m’a pas empêché de continuer à avancer. Actuellement, je poursuis des cours du soir en informatique de gestion, tout en travaillant en parallèle. 
+            Cette expérience me permet de développer mes compétences techniques et d’élargir mes connaissances dans le domaine de l’informatique. 
+            Motivé et déterminé, je cherche à évoluer professionnellement en combinant mon expérience terrain et mes nouvelles compétences en informatique.
+        </p>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="skills" id="skills">
+
+        <h2>Compétences</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Network Installation</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Fiber Optics</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Routing & Switching</h3>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+   <section class="about" id="My Works">
+
+        <h2>My Works</h2>
+
+        <p>
+            Au cours de mon parcours, j’ai eu l’opportunité de travailler dans différents domaines, ce qui m’a permis de développer une grande capacité d’adaptation et un sens du travail polyvalent. 
+            J’ai notamment acquis de l’expérience dans des secteurs techniques tels que la plomberie et la ventilation. 
+            Par ailleurs, durant mes études, j’ai occupé plusieurs emplois, notamment dans la distribution et le commerce, en travaillant avec La Poste, Aldi ainsi que dans différents magasins. 
+            Ces expériences m’ont permis de développer des compétences telles que le travail en équipe, la rigueur, 
+            le sens du service et la gestion des responsabilités dans des environnements variés.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact</h2>
+
+        <form>
+
+            <input type="text" placeholder="Nom">
+
+            <input type="email" placeholder="Email">
+
+            <textarea placeholder="Votre message"></textarea>
+
+            <button type="submit">Envoyer</button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 - Portfolio CV</p>
+    </footer>
+
+</body>
 </html>
